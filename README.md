@@ -38,7 +38,15 @@ The Python script is used for calculating hash values of executable files.
 ### Powershell Script Usage
 The PowerShell script is an alternative method to achieve the same functionality.
 
-### Usage
-Download the Script: Download the ExeHashCalculator.ps1 script from the repository.
-Open PowerShell as Administrator: Ensure that you run PowerShell with administrative privileges.
-Set Execution Policy: If the execution policy is not already set, configure it to allow the script to run:
+
+1. **Download the Script**: Download the ExeHashCalculator.ps1 script from the repository.
+   
+2. **Open PowerShell as Administrator**: Ensure that you run PowerShell with administrative privileges.
+
+3. **Set Execution Policy**: If the execution policy is not already set, configure it to allow the script to run:
+   ```sh
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+4. **Run the Script**: Execute the PowerShell script:
+   ```sh
+   .\running_hash_calculator.ps1
