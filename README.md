@@ -22,3 +22,23 @@ The Python script is used for calculating hash values of executable files.
 1. **Clone the Repository**:
    ```sh
    git clone https://github.com/canalacali/ExeHashCalculator.git
+   
+2. **Navigate to the Directory**:
+   ```sh
+   cd ExeHashCalculator
+   
+3. **Install Required Libraries**:
+   ```sh
+   pip install hashlib
+
+4. **Run the Script**:
+   ```sh
+   python hash_calculator.py
+
+### Powershell Script Usage
+The PowerShell script is an alternative method to achieve the same functionality.
+
+### Usage
+Download the Script: Download the ExeHashCalculator.ps1 script from the repository.
+Open PowerShell as Administrator: Ensure that you run PowerShell with administrative privileges.
+Set Execution Policy: If the execution policy is not already set, configure it to allow the script to run:
