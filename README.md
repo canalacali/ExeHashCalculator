@@ -25,7 +25,7 @@ The Python script is used for calculating hash values of executable files.
    
 2. **Navigate to the Directory**:
    ```sh
-   cd ExeHashCalculator
+   cd ExeHashCalculator-main
    
 3. **Install Required Libraries**:
    ```sh
